@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-class Carousel extends React.Component {
+import {useSpring, animated} from 'react-spring';
 
-    render(
+function CardInfo(props) {
 
-    )
+    const style = useSpring({opacity: 1, from: {opacity: 0}})
 
+
+    return(
+        <animated.div className="n-card-info" style={style}>
+            <p className="n-card-title">{props.title}</p>
+            <p className="n-card-subtitle">{props.subTitle}</p>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
+        </animated.div>
+    );
 }
 
-export default Carousel;
+export default CardInfo
