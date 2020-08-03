@@ -35,7 +35,7 @@ class App extends React.Component {
         text: 'more text!'
       },
       about: {
-        title: 'about me'
+        title: 'About me'
       },
       contact: {
         title: 'send me a message'
@@ -48,7 +48,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand>Natejf</Navbar.Brand>
+            <Navbar.Brand>Nathan Roth</Navbar.Brand>
             <Navbar.Toggle  aria-controls="navbar-toggle" className="border-0" />
             <Navbar.Collapse id = "navbar-toggle">
               <Nav className="ml-auto">

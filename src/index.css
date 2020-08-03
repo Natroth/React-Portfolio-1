@@ -38,3 +38,7 @@ code {
   font-size: 16px;
   margin: 0;
 }
+
+#root {
+  height: 100%;
+}
