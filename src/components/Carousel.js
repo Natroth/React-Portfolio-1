@@ -1,10 +1,10 @@
 import React from 'react';
 import onelookin_logo from '../assets/images/onelookinlogo3.png';
-import ecapsule_logo from '../assets/images/ecapsule-logo.png';
-import mdny_logo from '../assets/images/mdny-logo.png';
+import ecapsule_logo from '../assets/images/logoposs.png';
 import Card from './Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
 
 class Carousel extends React.Component {
 
@@ -29,17 +29,8 @@ class Carousel extends React.Component {
                     link: 'https://ecapsule.us/',
                     selected: false
 
-                },
-                {
-                    id: 2,
-                    title: 'MDNY FAQ Page',
-                    subTitle: 'FAQ page for a company',
-                    imgSrc: mdny_logo,
-                    link: 'https://help.merchdirect.com/index.html',
-                    selected: false
-
                 }
-            ]
+                 ]
         }
     }
 
