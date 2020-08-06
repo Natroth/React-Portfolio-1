@@ -1,9 +1,13 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
+import Container from 'react-bootstrap/Container';
 
 function ContactPage(props) {
     return(
-        <p> Contactpage works</p>
+       <Container className="p-5" sm={12} fluid={true}> 
+        <ContactForm />
+       </Container> 
     )
 } 
 
-export default ContactPage
+export default ContactPage;
