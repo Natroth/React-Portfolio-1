@@ -49,8 +49,11 @@ code {
 }
 
 .tech-img {
-  width: 10rem !important;
-  margin: 5rem;
+  width: 11rem !important;
+  margin: 4rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 3px 1px #ccc;   
+  border-radius: 5px; 
 }
 
 .tech-img-wrap {

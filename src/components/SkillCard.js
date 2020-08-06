@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 function SkillCard(props) {
     return(
-        <Image className="tech-img" src={props.src} alt={props.src} />
+        <Image className="tech-img" src={props.src} thubmnail alt={props.src} />
     )
 }
 
