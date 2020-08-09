@@ -6,7 +6,7 @@ import php_logo from '../assets/images/php_logo.svg';
 import node_logo from '../assets/images/node_logo.png';
 import python_logo from '../assets/images/python_logo.png';
 import react_logo from '../assets/images/react_logo.png';
-import react_bootstrap_logo from '../assets/images/react_bootstrap_logo.png';
+import mysql_logo from '../assets/images/mysql_logo.png';
 
 
 import SkillCard from '../components/SkillCard';
@@ -25,7 +25,7 @@ class SkillsPage extends React.Component {
               {name:"node", src: node_logo},
               {name:"python", src: python_logo},    
               {name:"react", src: react_logo},   
-              {name:"react", src: react_bootstrap_logo},                                                   
+              {name:"react", src: mysql_logo},                                                   
           ]
         
     }
@@ -36,18 +36,18 @@ class SkillsPage extends React.Component {
         <div> 
          <Hero title='Skills' />
             <div className="tech-img-wrap">
-                <Row className= "justify-content-center">
+                <Row className= "justify-content-center m-auto" fluid={true}>
                     <SkillCard src={this.state[0].src} />
                     <SkillCard src={this.state[1].src} />
                     <SkillCard src={this.state[2].src} />
                 </Row>
 
-                <Row className= "justify-content-center">
+                <Row className= "justify-content-center m-auto" fluid={true}>
                     <SkillCard src={this.state[3].src} />
                     <SkillCard src={this.state[4].src} />
                 </Row>
 
-                <Row className= "justify-content-center">
+                <Row className= "justify-content-center m-auto">
                     <SkillCard src={this.state[5].src} />            
                     <SkillCard src={this.state[6].src} />  
                     <SkillCard src={this.state[7].src} />              
