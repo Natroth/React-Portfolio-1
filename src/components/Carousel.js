@@ -1,6 +1,7 @@
 import React from 'react';
 import onelookin_logo from '../assets/images/onelookinlogo3.png';
 import ecapsule_logo from '../assets/images/logoposs.png';
+import knifes_logo from '../assets/images/knifes.png'
 import Card from './Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -23,6 +24,15 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
+                    title: 'Pantry Chef',
+                    subTitle: 'Recipe Lookup',
+                    imgSrc: knifes_logo,
+                    link: '',
+                    selected: false
+
+                },
+                {
+                    id: 2,
                     title: 'eCapsule',
                     subTitle: 'Online Time Capsule',
                     imgSrc: ecapsule_logo,

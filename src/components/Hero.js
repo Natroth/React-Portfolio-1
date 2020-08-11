@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 function Hero(props) {
     return(
-        <Jumbotron className="bg-transparent jumbotron-fluid" >
+        <Jumbotron className="bg-white jumbotron-fluid " >
             <Container fluid={true}>
                 <Row className="justify-content-center">
                     <Col md={8} sm={12}>

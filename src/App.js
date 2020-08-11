@@ -31,7 +31,7 @@ class App extends React.Component {
         {title: 'Home', path: "/"},
         {title: 'About', path: "/about"},
         {title: 'Contact', path: "/contact"},       
-        {title: 'Skills', path: "/skills"},                        
+        {title: 'Skills', path: "/skills"}                    
       ],
       home: {
         title: 'Lynxic',
@@ -39,7 +39,7 @@ class App extends React.Component {
         text: 'Build the Future'
       },
       about: {
-        title: 'About...'
+        title: 'Hello!'
       },
       contact: {
         title: "Let's chat"
@@ -60,7 +60,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/skills">Skills</Link>                    
-                <Link className="nav-link" to="/contact">Contact</Link>            
+                {/* <Link className="nav-link" to="/contact">Contact</Link>             */}
               </Nav>
             </Navbar.Collapse> 
 
@@ -68,7 +68,7 @@ class App extends React.Component {
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about"  render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/contact"  render={() => <ContactPage title={this.state.contact.title} />} />
+          {/* <Route path="/contact"  render={() => <ContactPage title={this.state.contact.title} />} /> */}
           <Route path="/skills"  render={() => <SkillsPage />} />        
 
                 <div  styles={{ backgroundImage:`url(${bridgeImg})` }}>

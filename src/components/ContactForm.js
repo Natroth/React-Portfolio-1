@@ -20,6 +20,8 @@ class ContactForm extends React.Component {
       method: 'POST',
       body: data,
     });
+
+    
   }
 
   render() {

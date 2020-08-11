@@ -15,6 +15,7 @@ code {
 .n-card {
   margin: 20px;
   border: 0px !important;
+  background-color: #fff;
 }
 
 .n-card-image {
@@ -55,6 +56,7 @@ code {
   padding: 1rem;
   box-shadow: 0px 0px 3px 1px #ccc;   
   border-radius: 5px; 
+  background-color: #fff;
 }
 
 .tech-img-wrap {
@@ -62,4 +64,38 @@ code {
   flex-flow: wrap;
   justify-content: space-around;
 
+}
+
+.success-msg, .err-msg {
+  padding-left: 15px;
+}
+
+.resume-pdf {
+  width: 50rem;
+  margin: auto;
+}
+
+.resume-wrapper{
+  width: 100%;
+}
+
+.pdf-worker {
+  width: 70%;
+  margin: auto;
+  border: none;
+}
+.pdf-viewer{
+  width: 90%;
+}
+
+.background-img {
+ background-image: url()
+}
+
+.hero-wrap {
+  background-color: #fff;
+}
+
+.site-description{
+  font-size: 1.5rem;
 }

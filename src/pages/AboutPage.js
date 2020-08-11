@@ -8,16 +8,14 @@ function AboutPage(props) {
         <Hero title={props.title} />
 
         <Content>
-            <p>
-            Her hunger for knowledge and determination to turn information into action has contributed to 
-            her most recent success at Rockwell Group. There, she led international award-winning campaign
-            s for heavy-hitting brands such as Puma, Gucci, and Rolex.
-
-        Meanwhile, she vastly improved the productivity of her department by implementi
-        ng strategic project management methods and ensuring a work-life balance for her team. Madison believes m
-        indfulness in the workplace is key to success, a tenet she lives out through her interests in yoga, meditation, g
-        ardening, and painting.           
-         </p>    
+            <p className="site-description">
+                I'm Nate, and this is a company I created to organize all the projects I've been working on. 
+                Lynxic is a web development and design company that uses the most modern technologies
+                to create stunning and effective websites and applications. All projects created under
+                the Lynxic brand are not only beautifuly designed, but functionaly innovative. Feel free 
+                to look through my current list of projects or message me directy at <a href="mailto:nathanrth15@gmail.com">nathanrth15@gmail.com</a>
+                <br/><br/>
+            </p>    
         </Content> 
 
        </div> 
