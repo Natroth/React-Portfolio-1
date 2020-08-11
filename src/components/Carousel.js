@@ -19,6 +19,7 @@ class Carousel extends React.Component {
                     subTitle: 'Free to use music streaming service',
                     imgSrc: onelookin_logo,
                     link: 'https://onelookin.com/index.php',
+                    codeLink: 'https://github.com/Natroth/OneLookIn',
                     selected: false
 
                 },
@@ -27,7 +28,8 @@ class Carousel extends React.Component {
                     title: 'Pantry Chef',
                     subTitle: 'Recipe Lookup',
                     imgSrc: knifes_logo,
-                    link: '',
+                    link: 'https://pantrychef.lynxic.com/',
+                    codeLink: 'https://github.com/Natroth/recipe-app',
                     selected: false
 
                 },
@@ -37,6 +39,7 @@ class Carousel extends React.Component {
                     subTitle: 'Online Time Capsule',
                     imgSrc: ecapsule_logo,
                     link: 'https://ecapsule.us/',
+                    codeLink: 'https://github.com/Natroth/eCapsule',
                     selected: false
 
                 }
