@@ -1,7 +1,8 @@
 import React from 'react';
 import onelookin_logo from '../assets/images/onelookinlogo3.png';
 import ecapsule_logo from '../assets/images/logoposs.png';
-import knifes_logo from '../assets/images/knifes.png'
+import knifes_logo from '../assets/images/knifes.png';
+import yayornay_logo from '../assets/images/yay_or_nay.png';
 import Card from './Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -35,6 +36,16 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
+                    title: 'Yay Or Nay',
+                    subTitle: 'Movie Rating',
+                    imgSrc: yayornay_logo,
+                    link: 'https://yayornay.lynxic.com/',
+                    codeLink: 'https://github.com/Natroth/yay-or-nay',
+                    selected: false
+
+                },
+                {
+                    id: 3,
                     title: 'eCapsule',
                     subTitle: 'Online Time Capsule',
                     imgSrc: ecapsule_logo,
@@ -72,7 +83,7 @@ class Carousel extends React.Component {
     render() {
         return(
             <Container fluid={true}>
-                <Row className="justify-content-around">
+                <Row className="justify-content-around p-card-container">
                     {this.makeItems(this.state.items)}
                 </Row>
             </Container>
